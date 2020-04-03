@@ -1062,7 +1062,7 @@ SpotifyWebApi.prototype = {
    *          otherwise an error. Not returned if a callback is given.
    */
   getMyCurrentPlaybackState: function (options, callback) {
-    console.log("SHAYKING");
+    //console.log("SHAYKING");
     return WebApiRequest.builder(this.getAccessToken())
       .withPath("/v1/me/player")
       .withQueryParameters(options)
